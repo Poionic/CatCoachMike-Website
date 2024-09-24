@@ -67,6 +67,37 @@ body {
 
 .btn-secondary:focus {
     background-color: var(--white);
-    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.05);
-    !important
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.05) !important;
+    color: var(--gray-1)
 }
+
+.btn-secondary:hover {
+    background-color: var(--white) !important;
+    box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.05) !important;
+    color: var(--gray-1);
+}
+
+/* NAVBAR */
+
+.navbar-brand img {
+    padding-right: 16px;
+}
+
+.navbar-brand span {
+    font-size: var(--text-medium);
+    font-weight: var(--font-weight-medium);
+    color: var(--dark-brown);
+}
+
+.navbar {
+    padding: 48px 0;
+}
+
+a.nav-link {
+    margin-right: 39px;
+    font-size: var(--text-regular);
+    font-weight: var(--font-weight-regular);
+    color: var(--dark-brown) !important;
+}
+
+/* HERO */
